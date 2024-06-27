@@ -355,3 +355,370 @@ span{
     font-size: 20px;
     text-align: center;
 } 
+#insta :hover{
+    scale: 1.5 1.5;
+
+}
+/*RESp Hopme*/
+@media (max-width:600px) {
+    header{
+        background-color: transparent;
+        backdrop-filter: blur(5px);
+        border-radius: 0 0 40px 40px;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+  
+    .home-page{
+        height: 100vh;
+        width: 100%;
+        background:url(img/home_bg.jpeg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    a{
+        text-decoration: none;
+        list-style: none;
+    }
+    header nav ul li {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    header nav ul {
+        display: flex;
+    }
+    header nav .logo img{
+        width: 75px;
+        margin-left: 50px;
+    }
+    header nav ul li a{
+        color: white;
+        font-size: larger;
+    }
+    .container{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container .content h1,.container .content p{
+        color: white;
+    }
+    .container .content h1 .name{
+        color: orange;
+        display: inline-block;
+        background-color: transparent;
+        backdrop-filter: blur(20px);
+        border-radius: 8px;
+    }
+    .container .content p{
+        font-size: 18px;
+    }
+    .container .content input{
+        background-color: orange;
+        color: white;
+        font-size: 20px;
+        border: none;
+        margin-top: 30px;
+        padding: 15px 10px;
+        border-radius: 15px;
+    }
+    header nav ul li a:hover{
+        color: orange;
+    }
+    header nav ul li:hover{
+        scale: 1.25;
+        transition: 0.6s;
+    }
+    .container .content input:hover{
+        background-color: transparent;
+        color: orange;
+        scale: 1.5;
+        transition: 0.6s;
+    }
+
+
+    /*about*/
+
+
+    .about-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    .text-about p{
+        width: 100%;
+        font-size: 20px;
+        margin-top: 190px;
+    }
+    .img1 img{
+        margin-top: 150px;
+    }
+    .title-about h1{
+        font-size: 60px;
+        letter-spacing: 4px;
+        margin-top: 40px;
+        color: #383848;
+    }
+    .title-about p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .text-about input{
+        padding: 15px 10px;
+        border-radius: 40px;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 2px;
+        border: none;
+        background-color: #383848;
+        color: white;
+        margin-top: 40px;
+    }
+    .text-about input:hover{
+        background-color: transparent;
+        color: #383848;
+        scale: 1.25;
+        transition: 0.8s;
+    }
+
+
+    /*Offer*/
+
+
+    .offer{
+        margin:10vh 0;
+        background: url(img/offer-background.jpg);
+        height: 120vh;
+        
+    }
+    .title-offer h1{
+        font-size: 50px;
+        letter-spacing: 4px;
+        margin-top: 40px;
+        color: orange;
+    }
+    .title-offer p{
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .offer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer .container .image img{
+        opacity: 100;
+        width: 100px;
+    }
+    .offer .container{
+        width: 80%;
+        height: 100%;
+        margin-bottom: 150px;
+    }
+    .offer .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .offer .container .text p {
+        color: white;
+        margin-top: 20px;
+    }
+    span{
+        color: yellow;
+        font-size: large;
+    }
+
+
+    /*Menu*/
+
+
+    .chose{
+        width: 400px;
+        
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .title-menu h1{
+        font-size: 50px;
+        letter-spacing: 4px;
+        margin-top: 18px;
+        color: #383848;
+    }
+    .title-menu p{
+        color: #383848ba;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu .container .chose{
+        display: flex;
+        flex-grow: 1;
+        
+    }
+    .name-prix{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: #383848 1.5px solid;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .detail p{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .menu .container .chose .image img{
+        width: 75px;
+    }
+    .menu .container {
+        height: 200vh;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+       
+
+    }
+
+    /*Daytime*/
+    .daytime .title h1{
+        width: fit-content;
+        margin: auto;
+        margin-top: 180px;
+        border: none;
+        border-radius: 25px;
+        padding: 15px 25px;
+        background-color: yellow;
+        color: white; 
+
+    }
+
+    .daytime .container {
+        background: url(img/daytime_bg.jpeg) ;
+        height: 30vh;
+        margin:20vh 0 35vh 0;
+    }
+    .daytime .container .alltime{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .daytime .container .alltime h1,.daytime .container .alltime h5{
+        color: white;
+    }
+    /* galery*/
+
+
+
+    .galery {
+        background: url(img/offer-background.jpg);
+        height: 115vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .galery .container {
+        display: flex;
+        flex-direction: column;
+        max-width:600px ;
+        margin: auto;
+    
+    }
+    .galery .container .photo img{
+        width: 280px;
+        height: 200px;
+        margin: 5px ;
+        border-radius: 15px;
+    }   
+    .galery .container .photo{
+        margin: auto;
+    }
+    .galery .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .galery .title h1{
+        font-size: 50px;
+        letter-spacing: 4px;
+        margin-top: 18px;
+        color: white;
+    }
+    /*Contact*/
+
+    .contact .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 60%;
+        margin: auto;
+    }
+    .contact .container .part1{
+        text-align: start;
+    }
+    .contact .container h1{
+        color: #383848;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin: 8px 0;
+    }
+
+    .fa-brands{
+        font-size: 35px;
+        padding: 8px;
+        width: 50px;
+        color: #383848;
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+    }
+    .part2 input,textarea{
+        padding: 8px 15px;
+        margin: 5px 0;
+        border-radius: 15px;
+        text-align: center;
+        background-color: rgba(235, 235, 130, 0.732);
+        border: none;
+        max-width: 400px;
+        max-height: 150px;
+    }
+    #btn{
+        background-color: yellow;
+        color: #383848;
+    }
+    #btn:hover{
+        background-color: #383848;
+        color: white;
+        transition: 0.8s;
+    }
+    }
