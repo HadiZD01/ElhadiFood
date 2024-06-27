@@ -731,12 +731,13 @@ span{
         background-color: transparent;
         backdrop-filter: blur(5px);
         border-radius: 0 0 40px 40px;
-        width: 100%;
+        
     }
     header nav{
         display: flex;
         flex-direction: column;
         text-align: center;
+        width: fit-content;
     }
     .home-page{
         height: 100vh;
@@ -752,9 +753,10 @@ span{
     }
     header nav ul li {
         list-style: none;
-        
     }
-    
+    header nav ul{
+        width: 420px;
+    }
     header nav .logo img{
         width: 75px;
         margin-right: 162.5px;
@@ -1087,5 +1089,13 @@ span{
         color: white;
         transition: 0.8s;
     }
-    
+    .scrollup{
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        background-color: #383848;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
 }
