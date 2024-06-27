@@ -723,7 +723,10 @@ span{
     }
 }
 /*RESp Hopme*/
-@media (max-width:420px) {
+@media (max-width:450px) {
+    h1{
+        text-align: center;
+    }
     header{
         background-color: transparent;
         backdrop-filter: blur(5px);
