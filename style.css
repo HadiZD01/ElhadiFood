@@ -731,15 +731,13 @@ span{
         background-color: transparent;
         backdrop-filter: blur(5px);
         border-radius: 0 0 40px 40px;
+        width: 100%;
     }
     header nav{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
+        text-align: center;
     }
-  
     .home-page{
         height: 100vh;
         width: 100%;
@@ -754,13 +752,9 @@ span{
     }
     header nav ul li {
         list-style: none;
-        display: flex;
-        gap: 15px;
-    }
-    header nav ul {
-        display: flex;
         
     }
+    
     header nav .logo img{
         width: 75px;
         margin-right: 162.5px;
@@ -768,7 +762,7 @@ span{
     }
     header nav ul li a{
         color: white;
-        font-size: 18px;
+        font-size: 14px;
     }
     .container{
         height: 80vh;
@@ -924,7 +918,7 @@ span{
 
 
     .chose{
-        width: 400px;
+        width: 320px;
         
     }
     .menu{
