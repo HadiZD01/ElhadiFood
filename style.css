@@ -755,7 +755,7 @@ span{
         list-style: none;
     }
     header nav ul{
-        width: 420px;
+        max-width: 400px;
     }
     header nav .logo img{
         width: 75px;
@@ -1006,7 +1006,7 @@ span{
 
     .galery {
         background: url(img/offer-background.jpg);
-        height: 230vh;
+        height: 180vh;
         display: flex;
         flex-direction: column;
     }
@@ -1020,7 +1020,6 @@ span{
     .galery .container .photo img{
         width: 150px;
         height: 350px;
-        margin: 5px ;
         border-radius: 15px;
     }   
     .galery .container .photo{
