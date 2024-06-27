@@ -723,7 +723,7 @@ span{
     }
 }
 /*RESp Hopme*/
-@media (min-width:400px) and (max-width:500px) {
+@media (max-width:400px) {
     header{
         background-color: transparent;
         backdrop-filter: blur(5px);
@@ -756,14 +756,16 @@ span{
     }
     header nav ul {
         display: flex;
+        
     }
     header nav .logo img{
         width: 75px;
-        margin-left: 50px;
+        margin-right: 162.5px;
+        
     }
     header nav ul li a{
         color: white;
-        font-size: larger;
+        font-size: 18px;
     }
     .container{
         height: 80vh;
@@ -1012,7 +1014,7 @@ span{
     .galery .container {
         display: flex;
         flex-direction: column;
-        max-width:500px ;
+        max-width:400px ;
         flex-wrap: wrap;
     
     }
